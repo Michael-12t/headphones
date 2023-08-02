@@ -1,0 +1,54 @@
+/* Header/Hero Section */
+header {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  header .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  
+  header nav ul {
+    display: flex;
+  }
+  
+  header nav li {
+    margin: 0 10px;
+  }
+  
+  header nav a {
+    color: #fff;
+  }
+  
+  header .hero-content h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  header .hero-content p {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  header .hero-content .btn {
+    background-color: #FF6565;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  header .hero-content .btn:hover {
+    opacity: 0.9;
+  }
+  
